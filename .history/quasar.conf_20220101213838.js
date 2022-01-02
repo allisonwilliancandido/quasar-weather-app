@@ -208,7 +208,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'weather-quasar'
+        appId: 'wea-quasar'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

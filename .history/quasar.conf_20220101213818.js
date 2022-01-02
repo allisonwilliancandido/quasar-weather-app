@@ -142,7 +142,7 @@ module.exports = configure(function (ctx) {
 
       manifest: {
         name: 'Quasar Weather',
-        short_name: 'Quasar Weather',
+        short_name: 'Minicurso Quasar',
         description: 'A Quasar Framework app',
         display: 'standalone',
         orientation: 'portrait',
@@ -208,7 +208,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'weather-quasar'
+        appId: 'minicurso-quasar'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

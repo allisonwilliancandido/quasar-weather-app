@@ -14,16 +14,19 @@
         <q-toolbar-title>
           Quasar Weather
         </q-toolbar-title>
-
+        
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
+      show-if-above
       bordered
     >
       <q-list>
-        <q-item-label header>
+        <q-item-label
+          header
+        >
           Essential Links
         </q-item-label>
 
